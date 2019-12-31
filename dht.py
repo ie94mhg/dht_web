@@ -3,7 +3,12 @@ import pymysql
 import sys
 import Adafruit_DHT
 
+<<<<<<< HEAD
 sampleFreq = 2 # time in seconds
+=======
+# Open database connection
+db = pymysql.connect("versa.dbaremoto.com.mx","raspberry_user","password","raspberry" )
+>>>>>>> d9fadb332fb9d7fb9c2e97cf1ec3dad9e2faf753
 
 # get data from DHT sensor
 def getDHTdata():	

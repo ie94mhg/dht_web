@@ -2,7 +2,7 @@ import pymysql
 import sys
 
 # Open database connection
-db = pymysql.connect("versa.dbaremoto.com.mx","raspberry_user","89288-a","raspberry" )
+db = pymysql.connect("versa.dbaremoto.com.mx","raspberry_user","password","raspberry" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
